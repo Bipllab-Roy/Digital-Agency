@@ -1,0 +1,17 @@
+@media (max-width: 991.98px) {
+  #banner {
+    padding-top: 110px;
+    padding-bottom: 80px;
+  }
+  .banner_container .text h1 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  .banner_container .bottom_text p {
+    min-width: 100%;
+  }
+  .banner_container .bottom_text {
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+  }
+}
