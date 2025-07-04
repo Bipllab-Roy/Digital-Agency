@@ -186,6 +186,10 @@ h1{
      text-align: center;   
 
 }
+.feature_container .text_2{
+    max-width: 360px;
+    text-align: center;
+}
 .feature_container p{
     padding-top: 24px;
     padding-bottom: 12px;
