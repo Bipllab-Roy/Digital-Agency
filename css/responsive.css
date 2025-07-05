@@ -14,4 +14,11 @@
     flex-wrap: wrap;
     padding-bottom: 45px;
   }
+  .project_container .project_image{
+   flex-wrap: wrap;
+}
+  .project_image .right_image .top_image{
+    flex-wrap: wrap;
+  }
+  
 }

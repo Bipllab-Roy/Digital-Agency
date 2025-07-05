@@ -186,9 +186,10 @@ h1{
      text-align: center;   
 
 }
-.feature_container .text_2{
+.feature_container .award_text{
     max-width: 360px;
     text-align: center;
+    
 }
 .feature_container p{
     padding-top: 24px;
@@ -199,16 +200,89 @@ h1{
     color: var(--gray-900);
 }
 
-.feature_container .victor_text span{
+.feature_container .text span{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
     color: var(--gray-700);
 }
 
+
 /* ===========================
    Feature Section end
 =========================== */
+
+
+/* ===========================
+   Feature Section end
+=========================== */
+
+.project_container{
+    padding-top: 128px;
+
+}
+
+.project_container .projects_text{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.projects_text p{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: var(--gray-900);
+    padding-bottom: 24px;
+}
+.projects_text .span{
+    display: inline-block;
+    max-width: 636px;
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-weight:400;
+    line-height: 1.6;
+    color: var(--gray-600);
+}
+.project_container .project_image{
+    display: flex;
+   gap: 24px;
+    padding-bottom: 40px;
+   
+}
+.project_image .left_image img{
+     width: 416px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project_image .right_image .top_image{
+    display: flex;
+   gap: 24px;
+
+}
+.project_image .right_image .top_image img{
+    border-radius: 8px;
+}
+.project_image .right_image .top_image img{
+    width: 416px;
+    object-fit: cover;
+
+}
+.project_image .right_image .bottom-image img{
+    width: 852px;
+    object-fit: cover;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.project_container .explore_btn{
+   text-align-last: center;
+   margin-bottom: 96px;
+
+}
+
+/* ===========================
+   Feature Section end
+=========================== */
+
 
 
 
