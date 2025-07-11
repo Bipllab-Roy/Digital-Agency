@@ -96,7 +96,7 @@ h1 {
 }
 .common_btn:hover{
   color: var(--primary);
-  font-weight: 500;
+  font-weight: 600;
  
 }
 .common_btn:hover::before{
@@ -324,6 +324,10 @@ h1 {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    gap: 24px;
+}
+.accordion_body_content .text{
+  max-width: 560px;
 }
 
 #competencies .accordion-button {
@@ -357,8 +361,52 @@ h1 {
    competencies Section end
 =========================== */
 
+
+ /* =========================
+       trust Section start
+       ====================== */
+
+#trust{
+  padding-top: 96px;
+}
+#trust h2{
+  font-size: 34px;
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--gray-900);
+}
+.single_slide_item{
+  width: 196px;
+  height: 100px;
+  border: 1px solid #E2E5F1;
+  border-radius: 8px;
+  margin-top: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider_view{
+  display: flex;
+  justify-content: space-between;
+}
+.previousArrow, .nextArrow{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #33354D;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  top: -20px;
+}
+.previousArrow{
+ left: 92%;
+}
+
+ /* =========================
+   trust Section start
+   ====================== */
+
 /* ################################
-              Contact page start
+         Contact page start
 ##################################### */
 /* ################################
               Contact page end
